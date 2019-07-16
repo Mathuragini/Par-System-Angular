@@ -4,55 +4,38 @@
   <div class="flex-container">
     <!-- First Div divider -->
     <div>
-      <div>
-        <label>Selected Date</label><br />
-        <input type="text" />
-      </div>
-      <div>
-        <label>Selected Venue</label><br />
-        <input type="text" />
-        <br />
+      <label>Selected Date :<br /> </label><br />
 
-        <label>Appraisers</label><br />
-        <input type="text" />
-      </div>
+      <label>Selected Venue : <br /> </label><br />
+
+      <label>Appraisers : <br /></label><br />
     </div>
 
     <!-- Second Div divider -->
     <div>
-      <label
-        >Coding Standard
-        <input type="checkbox" name="one" value="one" />
-        <input type="checkbox" name="two" value="two" />
-        <input type="checkbox" name="three" value="three" />
-        <input type="checkbox" name="four" value="four" />
-        <input type="checkbox" name="five" value="five" checked /> </label
-      ><br />
-      <label
-        >Time Management
+      <table style="width:100%">
+        <tr>
+          <th>Requirement</th>
+          <th>Rate</th>
+        </tr>
+        <tr>
+          <td>Coding Standard</td>
+          <td><input type="number" min="1" max="5" /></td>
+        </tr>
+        <tr>
+          <td>Time Management</td>
+          <td><input type="number" min="1" max="5" /></td>
+        </tr>
+        <tr>
+          <td>Qualification</td>
+          <td><input type="number" min="1" max="5" /></td>
+        </tr>
 
-        <input type="checkbox" name="one" value="one" />
-        <input type="checkbox" name="two" value="two" />
-        <input type="checkbox" name="three" value="three" />
-        <input type="checkbox" name="four" value="four" />
-        <input type="checkbox" name="five" value="five" checked /> </label
-      ><br />
-      <label
-        >Qualification
-        <input type="checkbox" name="one" value="one" />
-        <input type="checkbox" name="two" value="two" />
-        <input type="checkbox" name="three" value="three" />
-        <input type="checkbox" name="four" value="four" />
-        <input type="checkbox" name="five" value="five" checked /> </label
-      ><br />
-      <label
-        >Experience
-        <input type="checkbox" name="one" value="one" />
-        <input type="checkbox" name="two" value="two" />
-        <input type="checkbox" name="three" value="three" />
-        <input type="checkbox" name="four" value="four" />
-        <input type="checkbox" name="five" value="five" checked /> </label
-      ><br />
+        <tr>
+          <td>Experience</td>
+          <td><input type="number" min="1" max="5" /></td>
+        </tr>
+      </table>
     </div>
   </div>
 

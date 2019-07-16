@@ -9,6 +9,7 @@ import { DashboardComponent } from './shared/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ScheduleparSingleComponent } from './component/schedulepar-single/schedulepar-single.component';
 import { ScoreMyparComponent } from './component/score-mypar/score-mypar.component';
+import { EvaluateParComponent } from './component/evaluate-par/evaluate-par.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ScoreMyparComponent } from './component/score-mypar/score-mypar.compone
     DashboardComponent,
     HeaderComponent,
     ScheduleparSingleComponent,
-    ScoreMyparComponent
+    ScoreMyparComponent,
+    EvaluateParComponent
   ],
   imports: [
     BrowserModule,

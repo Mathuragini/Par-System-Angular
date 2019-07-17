@@ -106,3 +106,27 @@ select {
   padding: 20px;
   justify-content: flex-end;
 }
+
+.table {
+  width: 100%;
+  border: 1;
+}
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+th {
+  background-color: DodgerBlue;
+  color: white;
+}
+.aboutme {
+  font-family: "Georgia", Times, serif;
+  font-size: 21px;
+  text-align: center;
+}

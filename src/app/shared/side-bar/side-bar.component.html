@@ -1,13 +1,18 @@
 <nav>
-  <img src="assets/img/girl.png" alt="Smiley face" height="120" width="120" />
+  <img src="assets/img/girl1.png" alt="Smiley face" height="130" width="150" />
   <ul>
-    <li><a href="#">My Profile</a></li>
+    <li>
+      Profile
+      <ul class="nav-sub-items">
+        <li><a href="#">My Pro</a></li>
+      </ul>
+    </li>
     <br />
     <li>
       Par
       <ul class="nav-sub-items">
         <li><a href="#"> View Par Result</a></li>
-        <li><a href="#"> Score my Par</a></li>
+        <li><a routerLink="/scorepar"> Score my Par</a></li>
         <li><a href="#"> Track Par</a></li>
       </ul>
     </li>
@@ -16,9 +21,11 @@
     <li>
       Manage Par
       <ul class="nav-sub-items">
-        <li><a href="#"> Schedule par for Single user</a></li>
+        <li>
+          <a routerLink="/schedulepar_single"> Schedule par for Single user</a>
+        </li>
         <li><a href="#"> Schedule par for multi user</a></li>
-        <li><a href="#"> Evaluate Par</a></li>
+        <li><a routerLink="/evaluatepar"> Evaluate Par</a></li>
         <li><a href="#"> Configure par requirements</a></li>
         <li><a href="#"> Configure par details</a></li>
       </ul>

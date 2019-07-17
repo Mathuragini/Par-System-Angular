@@ -7,6 +7,7 @@ import { SideBarComponent } from "./shared/side-bar/side-bar.component";
 import { FooterComponent } from "./shared/footer/footer.component";
 import { DashboardComponent } from "./shared/dashboard/dashboard.component";
 import { HeaderComponent } from "./shared/header/header.component";
+// import { TrackParComponent } from './component/track-par/track-par.component';
 // import { ScheduleparSingleComponent } from "./component/schedulepar-single/schedulepar-single.component";
 // import { ScoreMyparComponent } from "./component/score-mypar/score-mypar.component";
 // import { EvaluateParComponent } from "./component/evaluate-par/evaluate-par.component";
@@ -22,6 +23,7 @@ import { HeaderComponent } from "./shared/header/header.component";
     // ScoreMyparComponent,
     // EvaluateParComponent
     routingComponents // [ScheduleparSingleComponent + ScoreMyparComponent + EvaluateParComponent]
+    // TrackParComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

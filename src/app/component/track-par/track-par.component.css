@@ -1,0 +1,97 @@
+.title {
+  text-align: center;
+}
+
+.container-full {
+  background-color: DodgerBlue;
+}
+.flex-container {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+
+.flex-container input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.submitBtn {
+  background-color: pink;
+}
+.card-footer {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+.table {
+  width: 100%;
+  border: 1;
+}
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+th {
+  background-color: DodgerBlue;
+  color: white;
+}
+.aboutme {
+  font-family: "Georgia", Times, serif;
+  font-size: 21px;
+  text-align: center;
+}
